@@ -38,9 +38,9 @@ export default function Container(props) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: 'Lee Robinson – Developer, writer, creator.',
-    description: `Front-end developer, JavaScript enthusiast, and course creator.`,
-    image: 'https://leerob.io/static/images/lee-banner.png',
+    title: 'Alperen Remzi Ünal – Curious mind, developer, and musician.',
+    description: `A computer science student who can think outside of the box, is results-oriented, outspoken and analytical.`,
+    image: 'https://alperenremziunal.com/static/images/alp-banner.png',
     type: 'website',
     ...customMeta
   };
@@ -51,15 +51,15 @@ export default function Container(props) {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://leerob.io${router.asPath}`} />
-        <link rel="canonical" href={`https://leerob.io${router.asPath}`} />
+        <meta property="og:url" content={`https://alperenremziunal.com${router.asPath}`} />
+        <link rel="canonical" href={`https://alperenremziunal.com${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Lee Robinson" />
+        <meta property="og:site_name" content="Alperen Remzi Ünal" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@leeerob" />
+        <meta name="twitter:site" content="@alprnunal" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
