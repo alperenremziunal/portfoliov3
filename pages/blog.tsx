@@ -17,7 +17,7 @@ export default function Blog({
 
   return (
     <Container
-      title="Blog – Lee Robinson"
+      title="Blog – Alperen Remzi Ünal"
       description="Thoughts on the software industry, programming, tech, videography, music, and my personal life."
     >
       <div className="flex flex-col items-start justify-center max-w-2xl mx-auto mb-16">
@@ -25,7 +25,7 @@ export default function Blog({
           Blog
         </h1>
         <p className="mb-4 text-gray-600 dark:text-gray-400">
-          {`I've been writing online since 2014, mostly about web development and tech careers.
+          {`I've been writing online since 2015, mostly about web development and tech careers.
             In total, I've written ${posts.length} articles on my blog.
             Use the search below to filter by title.`}
         </p>
@@ -58,18 +58,18 @@ export default function Blog({
               Most Popular
             </h3>
             <BlogPost
-              title="Rust Is The Future of JavaScript Infrastructure"
-              excerpt="Why is Rust being used to replace parts of the JavaScript web ecosystem like minification (Terser), transpilation (Babel), formatting (Prettier), bundling (webpack), linting (ESLint), and more?"
+              title="-"
+              excerpt="-"
               slug="rust"
             />
             <BlogPost
-              title="Everything I Know About Style Guides, Design Systems, and Component Libraries"
-              excerpt="A deep-dive on everything I've learned in the past year building style guides, design systems, component libraries, and their best practices."
+              title="-"
+              excerpt="-"
               slug="style-guides-component-libraries-design-systems"
             />
             <BlogPost
-              title="Building a Design System Monorepo with Turborepo"
-              excerpt="Manage multiple packages with a shared build, test, and release process using Turborepo, Changesets, Storybook, and more."
+              title="-"
+              excerpt="-"
               slug="turborepo-design-system-monorepo"
             />
           </>
