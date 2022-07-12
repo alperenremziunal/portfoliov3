@@ -28,11 +28,11 @@
     },
     {
       "source": "/robinson-resume-2019.pdf",
-      "destination": "https://read.cv/leerob"
+      "destination": "https://read.cv/alperenunal"
     },
     {
       "source": "/resume",
-      "destination": "https://read.cv/leerob"
+      "destination": "https://read.cv/alperenunal"
     },
     {
       "source": "/projects",
@@ -56,19 +56,19 @@
     },
     {
       "source": "/30",
-      "destination": "https://calendly.com/lee-vercel/30min"
+      "destination": "https://calendly.com/alperenunal/30min"
     },
     {
       "source": "/15",
-      "destination": "https://calendly.com/lee-vercel/15min"
+      "destination": "https://calendly.com/alperenunal/15min"
     },
     {
       "source": "/youtube",
-      "destination": "https://www.youtube.com/channel/UCZMli3czZnd1uoc1ShTouQw"
+      "destination": "https://www.youtube.com/channel/UCnN1xxeFdKUZ5ubjOjtX01g"
     },
     {
       "source": "/live",
-      "destination": "https://www.youtube.com/channel/UCZMli3czZnd1uoc1ShTouQw/live"
+      "destination": "https://www.youtube.com/channel/UCnN1xxeFdKUZ5ubjOjtX01g/live"
     },
     {
       "source": "/newsletter/(.*)",
