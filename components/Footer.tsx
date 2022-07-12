@@ -35,11 +35,11 @@ export default function Footer() {
           </Link>
         </div>
         <div className="flex flex-col space-y-4">
-          <ExternalLink href="https://twitter.com/leeerob">
+          <ExternalLink href="https://twitter.com/alprnunal">
             Twitter
           </ExternalLink>
-          <ExternalLink href="https://github.com/leerob">GitHub</ExternalLink>
-          <ExternalLink href="https://www.youtube.com/channel/UCZMli3czZnd1uoc1ShTouQw">
+          <ExternalLink href="https://github.com/alperenremziunal">GitHub</ExternalLink>
+          <ExternalLink href="https://www.youtube.com/channel/UCnN1xxeFdKUZ5ubjOjtX01g">
             YouTube
           </ExternalLink>
         </div>
