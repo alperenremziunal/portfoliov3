@@ -4,16 +4,16 @@ import { indexQuery } from 'lib/queries';
 
 export async function getServerSideProps({ res }) {
   const feed = new RSS({
-    title: 'Lee Robinson',
-    site_url: 'https://leerob.io',
-    feed_url: 'https://leerob.io/feed.xml'
+    title: 'Alperen Remzi Ünal',
+    site_url: 'https://alperenremziunal.com',
+    feed_url: 'https://alperenremziunal.com/feed.xml'
   });
 
   const allPosts = await sanityClient.fetch(indexQuery);
   allPosts.map((post) => {
     feed.item({
       title: post.title,
-      url: `https://leerob.io/blog/${post.slug}`,
+      url: `https://alperenremziunal.com/blog/${post.slug}`,
       date: post.date,
       description: post.excerpt
     });
