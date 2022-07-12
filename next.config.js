@@ -64,6 +64,10 @@ const securityHeaders = [
     key: 'X-DNS-Prefetch-Control',
     value: 'on'
   },
+    {
+    key: 'X-XSS-Protection',
+    value: '1; mode=block'
+  },
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Strict-Transport-Security
   {
     key: 'Strict-Transport-Security',
